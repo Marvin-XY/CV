@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.header {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 1em;
+    height: 60vh;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+    }
+}
+
+.main {
+    background: #0f3460;
+    height: 30vh;
+}
+
+.footer {
+    background: #e94560;
+    height: 30vh;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+}
