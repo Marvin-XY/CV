@@ -4,11 +4,14 @@ body {
 }
 
 .header {
-    background: #1a1a2e;
     color: #fff;
     padding: 1em;
     height: 60vh;
     text-align: center;
+    background: #333 url("/images/programming.jpg") no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+
 
     h1 {
         margin: 0;
@@ -18,12 +21,12 @@ body {
 }
 
 .main {
-    background: #0f3460;
+    background: #333;
     height: 30vh;
 }
 
 .footer {
-    background: #e94560;
+    background: #626;
     height: 30vh;
 }
 
