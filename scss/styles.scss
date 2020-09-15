@@ -1,39 +1,107 @@
+// Global section
+
 body {
     margin: 0;
     font-family: 'Exo 2', sans-serif;
+    color: #fff;
 }
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+// Header Section
 
 .header {
     color: #fff;
-    padding: 1em;
-    height: 60vh;
+    padding: 2em;
     text-align: center;
     background: #333 url("/images/programming.jpg") no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
 
-
-    h1 {
-        margin: 0;
-        font-weight: 300;
-        letter-spacing: 1.5px;
+    h1 {    
+        font-size: 2.5rem;
     }
 }
 
-.main {
-    background: #333;
-    height: 30vh;
+// Skill section
+
+.skills-title {
+    background: #224;
+    text-align: center;
+    padding: 4rem 0;
 }
+
+.main {
+    background: #224;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2.5em 4em 2.5em;
+    text-align: center;
+}
+
+.section-a, .section-b, .section-c {
+    padding: 2em;
+
+    h1 {
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    p {
+        text-align: justify;
+        line-height: 2;
+    }
+}
+
+
+// Footer section
 
 .footer {
-    background: #626;
-    height: 30vh;
+    background: #645;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 2.5em 4em 2.5em;
 }
 
-h1 {
-    font-family: 'Anton', sans-serif;
+.contact-title {
+    background: #645;
+    text-align: center;
+    padding: 4rem 0;
 }
 
-h2 {
-    font-family: 'Dosis', sans-serif;
+.contact-icon  {
+    color: #fff;
+}
+
+.contact-icon:hover {
+    color: #1ff;
+}
+
+// media query
+
+@media (max-width: 720px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contact-icon {
+            margin-bottom: 4em;
+        }
+    }
+
 }
