@@ -20,7 +20,8 @@ h2 {
   color: #fff;
   padding: 2em;
   text-align: center;
-  background: #333 url("/images/programming.jpg") no-repeat;
+  background: url("/images/programming.jpg") no-repeat;
+  background-color: #333;
   background-blend-mode: multiply;
   background-size: cover;
 }
