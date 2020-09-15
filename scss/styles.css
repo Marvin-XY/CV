@@ -21,8 +21,6 @@ h2 {
   padding: 2em;
   text-align: center;
   background: url("/images/programming.jpg") no-repeat;
-  background-color: #333;
-  background-blend-mode: multiply;
   background-size: cover;
 }
 
