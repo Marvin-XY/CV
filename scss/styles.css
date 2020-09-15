@@ -20,7 +20,7 @@ h2 {
   color: #fff;
   padding: 2em;
   text-align: center;
-  background: #333 url("/images/programming.jpg") no-repeat;
+  background: #333 url("images/programming.jpg") no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -30,13 +30,13 @@ h2 {
 }
 
 .skills-title {
-  background: #224;
+  background: #324;
   text-align: center;
   padding: 4rem 0;
 }
 
 .main {
-  background: #224;
+  background: #324;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -60,7 +60,7 @@ h2 {
 }
 
 .footer {
-  background: #645;
+  background: #e94560;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,7 +71,7 @@ h2 {
 }
 
 .contact-title {
-  background: #645;
+  background: #e94560;
   text-align: center;
   padding: 4rem 0;
 }
@@ -81,7 +81,7 @@ h2 {
 }
 
 .contact-icon:hover {
-  color: #1ff;
+  color: #ff1;
 }
 
 @media (max-width: 720px) {
