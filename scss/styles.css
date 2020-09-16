@@ -60,6 +60,22 @@ h2 {
   line-height: 2;
 }
 
+.hobbies-title {
+  background: #2f3460;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hobbies-container {
+  background: #2f3460;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 2.5em 4em 2.5em;
+  text-align: center;
+}
+
 .footer {
   background: #e94560;
   display: -webkit-box;
@@ -87,6 +103,12 @@ h2 {
 
 @media (max-width: 720px) {
   .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .hobbies-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;

@@ -24,7 +24,8 @@ h2 {
     color: #fff;
     padding: 2em;
     text-align: center;
-    background: #333 url("images/programming.jpg") no-repeat;
+    background: url("../images/programming.png") no-repeat;
+    background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
 
@@ -36,13 +37,13 @@ h2 {
 // Skill section
 
 .skills-title {
-    background: #224;
+    background: #324;
     text-align: center;
     padding: 4rem 0;
 }
 
 .main {
-    background: #224;
+    background: #324;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 2.5em 4em 2.5em;
@@ -63,6 +64,21 @@ h2 {
     }
 }
 
+// Hobbies section
+
+.hobbies-title {
+    background: #2f3460;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hobbies-container {
+    background: #2f3460;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2.5em 4em 2.5em;
+    text-align: center;
+}
 
 // Footer section
 
@@ -95,6 +111,11 @@ h2 {
         grid-template-columns: 1fr;
     }
 
+    .hobbies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -103,5 +124,4 @@ h2 {
             margin-bottom: 4em;
         }
     }
-
 }
