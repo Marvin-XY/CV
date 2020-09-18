@@ -30,6 +30,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+.selfie {
+  border-radius: 100%;
+}
+
 .skills-title {
   background: #324;
   text-align: center;
