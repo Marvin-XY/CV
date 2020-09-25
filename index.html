@@ -3,81 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marvin Oswaldo Guzman</title>
-    <link rel="stylesheet" href="scss/styles.css">
+    <!-- CSS only -->
     <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis&family=Exo+2&display=swap" rel="stylesheet">
-    <script defer src="https://friconix.com/cdn/friconix.js"> </script>    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Document</title>
 </head>
 <body>
 
+    <!-- Navigation section -->
+
+    <nav class="navbar navbar-expand-md navbar-dark py-3 w-100 sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand pl-2" href="index.html">MY WEBSITE</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">HOBBIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">CONTACT ME</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
     <!-- Header section -->
 
-    <div class="header">
-        <h1>Marvin Oswaldo Guzman Avalos</h1>
-        <h2>Web Developer</h2>
-        <img src="images/Selfie.png" alt="" class="selfie">
-    </div>
+    <header class="container-fluid text-center" id="home">
+        <h1>MARVIN OSWALDO GUZMAN AVALOS</h1>
+        <h4>Web Developer</h4>
+        <img src="images/Selfie.png" alt="Selfie" class="rounded-circle">
+    </header>
+
+    
 
     <!-- Skills section -->
 
-        <h1 class="skills-title">SKILLS</h1>
-
-    <div class="main">
-
-        <div class="section-a">
-            <i class="icon fi-swsux5-globe-wide"></i>
-            <h1>Bilingual</h1>
-            <p>Able to write, listen and speak Spanish and English fluently.</p>
+    <section class="skills" id="skills">
+        <div class="container text-center">
+            <h1>SKILLS</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-globe fa-5x"></i>
+                <h3>BILINGUAL</h3>
+                <p>Able to write, listen and speak Spanish and English fluently.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-laptop-code fa-5x"></i>
+                <h3>FRONT END DEVELOPER</h3>
+                <p>Very knowlageble in HTML, CSS, Javascript, Sass, Github repositories and Hosting to provide a dedicated full service in the client side of any webpage.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-handshake fa-5x"></i>
+                <h3>COMITTED</h3>
+                <p>Professional, responsable, organized, neat and great commitment to deliver a very resposive and stylish website based on your needs.</p>
+            </div>
         </div>
-
-        <div class="section-b">
-            <i class="icon fi-snsux5-code-solid"></i>
-            <h1>Front End Developer</h1>
-            <p>Very knowlageble in HTML, CSS, Javascript, Sass, Github repositories and Hosting to provide a dedicated full service in the client side of any webpage.</p>
         </div>
-
-        <div class="section-c">
-            <i class="icon fi-snsux5-team-solid"></i>
-            <h1>Committed</h1>
-            <p>Professional, responsable, organized, neat and great commitment to deliver a very resposive and stylish website based on your needs.</p>
-        </div>
-    </div>
+    </section>
 
     <!-- Hobbies section -->
 
-    <h1 class="hobbies-title">HOBBIES</h1>
-
-    <div class="hobbies-container">
-
-        <div class="section-a">
-            <i class="fi-snsuh5-gamepad-solid"></i>
-            <h1>Videogames</h1>
-            <p>Believe it or not but videogames taught me to think in a more logic way and helped me learning a new language.</p>
+    <section class="hobbies" id="hobbies">
+        <div class="container text-center">
+            <h1>HOBBIES</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-gamepad fa-5x"></i>
+                <h3>VIDEOGAMES</h3>
+                <p>Believe it or not but videogames taught me to think in a more logic way and helped me learning a new language.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-code fa-5x"></i>
+                <h3>CODING</h3>
+                <p>My passion, probably my most time killer habit after sleeping. I spend most of my spare time on it.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-music fa-5x"></i>
+                <h3>MUSIC</h3>
+                <p>Music lover, there is no time in the day where music is not playing in my room. From classic music to electronic music, however, dancing is not my thing.</p>
+            </div>
         </div>
-
-        <div class="section-b">
-            <i class="fi-snsux5-keyboard"></i>
-            <h1>Coding</h1>
-            <p>My passion, probably my most time killer habit after sleeping. I spend most of my spare time on it.</p>
         </div>
-
-        <div class="section-c">
-            <i class="fi-snsux5-eighth-note-solid"></i>
-            <h1>Music</h1>
-            <p>Music lover, there is no time in the day where music is not playing in my room. From classic music to electronic music, however, dancing is not my thing.</p>
-        </div>
-    </div>
+    </section>
 
     <!-- Contact me section -->
 
-    <h1 class="contact-title">CONTACT ME</h1>
+    <footer class="contact-me" id="contact-me">
+        <div class="container text-center">
+            <h1>CONTACT ME</h1>
+            <div class="row">
+                <div class="col-md-4"><a href="https://www.facebook.com/mar.guzmanavalos/" target="blank"><i class="fab fa-facebook-square fa-5x"></i></a></div>
+                <div class="col-md-4"><a href="https://www.instagram.com/marvinn_xy/" target="blank"><i class="fab fa-instagram fa-5x"></i></a></div>
+                <div class="col-md-4"><a href="https://wa.link/5px5c8" target="blank"><i class="fab fa-whatsapp-square fa-5x"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    
 
-    <div class="footer">
-        <a class="contact-icon" href="https://www.facebook.com/mar.guzmanavalos/" target="blank"><i class="fi-snsux5-facebook"></i></a>
-        <a class="contact-icon" href="https://www.instagram.com/marvinn_xy/" target="blank"><i class="fi-snsux5-instagram"></i></a>
-        <a href="https://wa.link/5px5c8" class="contact-icon"><i class="fi-xnsux5-whatsapp"></i></a>
-    </div>
-
+    <!-- JavaScript and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
 </html>
