@@ -1,0 +1,94 @@
+// Global
+
+body {
+    color: white;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    text-align: justify;
+}
+
+// Navigation section
+
+nav {
+        background: #111;
+}
+
+// Header section
+
+header {
+    background: url("../images/programming.png") no-repeat;
+    background-color: #333;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 2rem 0;
+
+    h4 {
+        margin: 1rem 0;
+    }
+    
+}
+
+// Skills section
+
+.skills {
+    background: #332244;
+    padding: 0 2.5rem 4rem;
+
+    h1 {
+        padding: 4rem 0;
+    }
+
+    h3 {
+        margin: 2rem 0;
+    }
+
+    .col-md-4 {
+        padding: 2rem;
+    }
+}
+
+// Hobbies section
+
+.hobbies {
+    background: #2f3460;
+    padding: 0 2.5rem 4rem;
+
+    h1 {
+        padding: 4rem 0;
+    }
+
+    h3 {
+        margin: 2rem 0;
+    }
+
+    .col-md-4 {
+        padding: 2rem;
+    }
+}
+
+// Contact me section
+
+.contact-me {
+    background: #e94560;
+    
+    h1 {
+        padding: 4rem 0;
+        margin: 0;
+    }
+
+    .fab {
+        margin: 2rem;
+        color: #fff;
+    }
+
+    .fab:hover {
+        color: #ffff11;
+    }
+}
+
